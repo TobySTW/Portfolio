@@ -1,0 +1,103 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+@font-face {
+  font-family:adumu;
+  src: url(Adumu.ttf);
+}
+.navigation {
+	position:fixed;
+	display:grid;
+	align-items:center;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows:1fr;
+	height:110px;
+	margin:0;
+	background-color:#3b3434;
+	width:100%;
+}
+.navigation p {
+	font-size:1.8rem;
+	font-family: 'Open Sans', sans-serif;
+	color:#b3a4a4;
+	text-align:center;
+	margin:0px;
+	padding:30%;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.navigation p:hover {
+	color:#eddddd;
+}
+.heading {
+	margin:0px;
+	width:100%;
+	height:740px;
+	background-color:#b3a4a4;
+}
+h1 {
+	display:flex;
+	padding:15%;
+	padding-bottom:0px;
+	font-size:5rem;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-family:adumu;
+	color:white;
+}
+.heading .title p {
+	display:flex;
+	padding:15%;
+	padding-top:0px;
+	padding-bottom:0px;
+	font-size:2rem;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-family:'Open Sans', sans-serif;
+	color:white;
+}
+.heading p {
+	padding:15%;
+	padding-top:8%;
+	padding-bottom:8%;
+	font-size:1.5rem;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-family:'Open Sans', sans-serif;
+	color:#eddddd;
+}
+.gallery1 {
+	height:450px;
+	background-color:#544949;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.gallery2 {
+	height:500px;
+	padding-bottom:5%;
+	background-color:#544949;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+h2 {
+	background-color:#544949;
+	text-align:center;
+	padding-top:3%;
+	padding-bottom:0px;
+	font-size:3rem;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-family:adumu;
+	color:white;
+}
+.about_me {
+	height:500px;
+	background-color:#b3a4a4;
+}
+.about_me h2 {
+	background-color:#b3a4a4;
+}
+body {
+	margin:0px;
+}
