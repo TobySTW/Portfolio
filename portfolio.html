@@ -10,10 +10,10 @@
 <body>
 	<div class='navigation'>
 		<p></p>
-		<a href='#home'><p>Home</p></a>
-		<a href='#gallery'><p>Gallery</p></a>
-		<a href='#about'><p>About me</p></a>
-		<a href='#contact'><p>Contact</p></a>
+		<a href='#home'tabindex="0"><p>Home</p></a>
+		<a href='#gallery'tabindex="1"><p>Gallery</p></a>
+		<a href='#about'tabindex="2"><p>About me</p></a>
+		<a href='#contact'tabindex="3"><p>Contact</p></a>
 		<p></p>
 	</div>
 	<div class='heading'id='home'>
@@ -33,7 +33,7 @@
 		<h2>Gallery</h2>
 		<div class='gallery1'>
 				<img src='https://pro2-bar-s3-cdn-cf3.myportfolio.com/36f1bf5d-c23e-4b38-82b8-a010ba8217a2/4dc7f9e0-ced8-4561-b9f7-76ba0b2692fb_rw_1920.png?h=968ae4b46c1d245a42fc0c9207dc7649'>
-				<img src='https://pro2-bar-s3-cdn-cf6.myportfolio.com/36f1bf5d-c23e-4b38-82b8-a010ba8217a2/a1aa752f-4472-46ef-93a7-165cd1b1ab45_rw_1920.jpg?h=26e35765a1763cf254fb67c7159ef783'>
+				<img src='https://pro2-bar-s3-cdn-cf.myportfolio.com/36f1bf5d-c23e-4b38-82b8-a010ba8217a2/bc92b5ed-845c-4fb5-86e5-4f62360747a2_rw_1920.jpg?h=2ee764f45a1c2ef22a02e27492128162'>
 				<img src='https://pro2-bar-s3-cdn-cf1.myportfolio.com/36f1bf5d-c23e-4b38-82b8-a010ba8217a2/9c46087c-ba11-4e1c-a6d1-1d17b8fd2aea_rw_1920.png?h=69bfbc4fa708bf317a7cc8fd377e5b7a'>
 		</div>
 		<div class='gallery2'>
@@ -55,9 +55,9 @@
 			</div>
 			<div class='about_me_content2'>
 				<h3>Web design</h3>
-				<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est.</p>
+				<p>I recently became a web designer/developer which has taught me a great deal about the building blocks that make up the web pages I spend large portions of my day sifting through. Most important of all I think is to make my pages look aesthetically pleasing whilst being accesible be it through the different monitors it can be displayed on, or whther the client side has access to the relevant information with minimal tools at there disposal.</p>
 				<h3>Graphic design</h3>
-				<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+				<p>I started as a graphic designer 7 or so years ago, since then I've worked for a range of clients from Upholstery to Youtubers. It is fun to get lost in the design process but I always keep a tight schedule and get on well with my clients.'</p>
 			</div>
 		</div>
 	</div>
@@ -69,9 +69,10 @@
 			</div>
 			<div class='message_box'>
 				<form action='NEEDS PHP' id="userform">
-					Name: <input type='text' name='username'>
+					Name:
+					<input type='text' name='username' tabindex="5">
 				</form>
-				<textarea rows='4' cols='50' name='comment' form='userform'>
+				<textarea rows='4' cols='50' name='comment' form='userform' tabindex="6">
 					Enter your message here :)
 				</textarea>
 			</div>
