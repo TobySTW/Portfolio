@@ -335,9 +335,26 @@ textarea {
 .projectLinks h5 {
 	margin: 0;
 }
-@media screen and (max-width:930px){
+@media screen and (max-width:1110px){
 	.projectItem {
 		font-size:1rem;
+	}
+}
+@media screen and (max-width:810px){
+	.about_me {
+		height: 1600px;
+	}
+	.projectItem img {
+		max-height: 100px;
+	}
+	.projectLinks {
+		justify-content: center;
+	}
+	.projectItem {
+		justify-content: center;
+		text-align: center;
+		flex-wrap: wrap;
+		height: 320px;
 	}
 }
 
