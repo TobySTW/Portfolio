@@ -326,6 +326,14 @@ textarea {
 }
 .projectItemText h4 {
 	margin-top: 10px;
+	margin-bottom: 0;
+}
+.projectLinks {
+	display: flex;
+	gap: 20px;
+}
+.projectLinks h5 {
+	margin: 0;
 }
 @media screen and (max-width:930px){
 	.projectItem {
