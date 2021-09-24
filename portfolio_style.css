@@ -33,7 +33,7 @@
 a {
     text-decoration: none;
 }
-@media screen and (max-width:1034px){
+@media screen and (max-width:1370px){
 	.navigation p {
 		font-size:1rem;
 }}
@@ -169,18 +169,17 @@ h2 {
 /* About me, Segment */
 .about_me {
 	width:100%;
-	height:770px;
+	height:1000px;
 	background-color:#b3a4a4;
 }
 .about_me_content0 h2 {
-	width:100%;
-	background-color:#b3a4a4;
+	padding-bottom: 20px;
 }
 .about_me_content_both {
 	display:flex;
 	font-size:1.4rem;
 	color:#eddddd;
-	
+
 }
 h3 {
 	font-size:2.5rem;
@@ -252,7 +251,7 @@ h3 {
 		font-size:0.7rem;
 }
 	.about_me_content2 {
-		width:80%;		
+		width:80%;
 }
 	.about_me_content2 p {
 		font-size:0.8rem;
@@ -297,7 +296,47 @@ textarea {
 	align-items:center;
 	color:#eddddd;
 }
+
+/* NEW CONTENT */
+.webProjects {
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	height:200px;
+	margin:0;
+	width:100%;
+}
+.projectItem {
+	display: flex;
+	width: 90%;
+	height: 160px;
+	background-color: #eddddd;
+	color: #544949;
+	border-radius: 20px;
+	margin: 15px 0;
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+}
+.projectItem img {
+	max-width: 220px;
+	max-height: 100%;
+	border-radius: 10px;
+	margin: 10px;
+}
+.projectItemText h4 {
+	margin-top: 10px;
+}
+@media screen and (max-width:930px){
+	.projectItem {
+		font-size:1rem;
+	}
+}
+
 body {
 	background-color:#b3a4a4;
 	margin:0;
+}
+html {
+	scroll-behavior: smooth;
 }
